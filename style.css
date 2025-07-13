@@ -492,6 +492,7 @@ footer {
         width: 90%;
     
     }
+   
 }
 
 /* Small devices (phones, less than 600px) */
@@ -562,13 +563,13 @@ footer {
     width: 100%;
   }
   .row-1 {
-    width: 100%;
+    width: 90%;
   }
   #skills {
     padding: 40px 1rem;
   }
   .skill-container {
-    width: 100%;
+    width: 90%;
     margin: 1rem 0;
   }
   .skill {
