@@ -337,7 +337,7 @@ button:hover{
 .project-card {
     background-color: #facc15;
     color: black;
-    width: 300px;
+    width: 33.33%;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.2);
@@ -444,7 +444,9 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
+    .project-card{
+        width: 80%;
+    }
     .skill {
         justify-content: center;
     }
@@ -476,21 +478,8 @@ footer {
 /* responsive */
 
 @media(max-width:477px){
-    .project-container{
-        flex-direction: column;
-        align-items: center;
-    }
-    .project-card p{
-       font-size: 12px;
-       
-    }
-    .project-card h3{
-        font-size: 20px;
-    }
-    .project-card{
-        padding: 0.8rem;
-        width: 90%;
-    
+    #contact h1{
+        line-height: 1.1;
     }
    
 }
@@ -574,6 +563,9 @@ footer {
   }
   .skill {
     justify-content: center;
+  }
+  .project-card{
+    width: 100%;
   }
   .first {
     width: 140px;
